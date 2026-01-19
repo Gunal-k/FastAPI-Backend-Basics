@@ -1,4 +1,4 @@
-# FastAPI Learning Lab 🚀
+# FastAPI Backend Basics🚀
 
 This repository is a structured, hands-on guide to learning **FastAPI** — a modern, high-performance Python web framework for building APIs.
 
