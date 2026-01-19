@@ -1,58 +1,43 @@
-# FastAPI Backend Basics🚀
+# FastAPI Backend Basics 🚀
 
-This repository is a structured, hands-on guide to learning **FastAPI** — a modern, high-performance Python web framework for building APIs.
+This repository contains hands-on backend development practice using **FastAPI**, a modern, high-performance Python framework for building APIs.
 
-The goal is to move from basics to real-world backend development using clean code and best practices.
+The project starts with core FastAPI fundamentals and will be gradually extended toward real-world backend features.
 
 ---
 
-## 🔧 Tech Stack
+## 🔧 Tech Stack (Current)
 
 - Python 3.9+
 - FastAPI
 - Uvicorn
 - Pydantic
-- SQLAlchemy (later stages)
-- SQLite / PostgreSQL (optional)
 
 ---
 
-## 📚 What You'll Learn
+## 📌 Current Features
 
-- FastAPI fundamentals
-- Creating RESTful APIs
-- Path & query parameters
-- Request body & response models
-- Data validation with Pydantic
-- Dependency injection
+- Minimal FastAPI application
+- Basic GET endpoint
+- Interactive API documentation using Swagger UI (`/docs`)
+- Development server with auto-reload
+
+---
+
+## 🛣 Planned Enhancements
+
+- Project structure using routers and services
+- Request/response models
 - Error handling
-- Authentication (JWT basics)
-- Database integration
-- API testing & documentation (Swagger / ReDoc)
-
----
-
-## 📁 Project Structure
-
-FastAPI-Backend-Basics/
-│
-├── app/
-│ ├── main.py
-│ ├── routers/
-│ ├── models/
-│ ├── schemas/
-│ └── database.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
+- Authentication (JWT)
+- Database integration (SQLAlchemy + SQLite/PostgreSQL)
+- API testing
 
 ---
 
 ## ▶️ Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/Gunal-k/FastAPI-Backend-Basics.git
 cd FastAPI-Backend-Basics
